@@ -9,7 +9,7 @@ The Gutenberg block includes the following frontend controls:
 * A select control to change the geometric shape
 * A checkbox to show or hide the wireframe
 ## :movie_camera: See it in action
-Go to [Three JS Gutenberg Block](https://caledrosforge.com/3d-demo-gutenberg-block/) to try the block.
+Go to [3D Demo Gutenberg Block](https://caledrosforge.com/3d-demo-gutenberg-block/) to try the block.
 ## :package: Installation
 1.	Download the plugin from Github. You can use the Code → Download ZIP option, or you can clone the repository.
 2.	If you have cloned the repository, move all the files into a folder (you can name it demo-3d). Then compress the folder to create a ZIP file.
