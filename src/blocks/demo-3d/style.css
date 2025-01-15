@@ -1,0 +1,61 @@
+/*
+ * Demo 3D - A Gutenberg block that uses Three JS.
+ * Copyright (C) 2025  David Arnado
+ * 
+ * This file is part of Demo 3D.
+ * 
+ * Demo 3D is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+
+ * Demo 3D is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+
+ * You should have received a copy of the GNU General Public License along
+ * with Demo 3D; if not, see <https://www.gnu.org/licenses/>.
+ */
+
+.cf-demo-3d-object-container {
+  max-width: 800px;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.cf-demo-3d-object-container__canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.cf-demo-3d-controls__label {
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  row-gap: 5px;
+}
+.cf-demo-3d-controls__label--has-checkbox {
+  flex-direction: row;
+  align-items: center;
+}
+.cf-demo-3d-controls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 0px auto 20px auto;
+  max-width: 800px;
+  width: 100%;
+}
+.cf-demo-3d-controls__select {
+  font-family: inherit;
+  font-size: 16px;
+}
+@media (max-width: 810px) {
+  .cf-demo-3d-controls {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+  }
+}

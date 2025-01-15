@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "three-js-block/demo-3d",
+  "title": "Demo 3D",
+  "category": "three-js-block",
+  "icon": "smiley",
+  "description": "A demo Gutenberg block that uses Three JS to add a 3D element.",
+  "keywords": ["3d"],
+  "version": "1.0",
+  "textdomain": "three-js-block",
+  "editorScript": "file:./index.js",
+  "viewScriptModule": "file:./frontend.js",
+  "render": "file:./render.php",
+  "style": "file:./style-index.css",
+  "attributes": {},
+  "supports": {
+    "className": false,
+    "html": false,
+    "multiple": false,
+    "interactivity": true
+  }
+}
